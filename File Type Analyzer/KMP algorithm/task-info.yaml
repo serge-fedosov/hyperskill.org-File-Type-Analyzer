@@ -119,6 +119,17 @@ files:
         }
     }
   learner_created: false
+- name: test/Clue.java
+  visible: false
+  text: |
+    public class Clue {
+        public String response;
+
+        public Clue(String response) {
+            this.response = response;
+        }
+    }
+  learner_created: false
 - name: test/NaiveSearch.java
   visible: false
   text: |2
@@ -151,17 +162,6 @@ files:
         }
     }
   learner_created: false
-- name: test/Clue.java
-  visible: false
-  text: |
-    public class Clue {
-        public String response;
-
-        public Clue(String response) {
-            this.response = response;
-        }
-    }
-  learner_created: false
 - name: test/ContainsSearch.java
   visible: false
   text: |
@@ -179,9 +179,9 @@ files:
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/64/stages/344/implement#comment
+feedback_link: https://hyperskill.org/learn/step/5486#comment
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 06 Aug 2022 17:55:54 UTC
-record: -1
+  time: Sun, 07 Aug 2022 10:26:57 UTC
+record: 2
